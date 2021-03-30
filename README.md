@@ -1,7 +1,7 @@
 # HeartRateWithBluetooth
 App to connect heart rate device to iphone by bluetooth
 
-I have a CooSpo 6 heart rate device, witch i conected to iphone using Bluetooth LE.
+I have a CooSpo 6 heart rate device, which i conected to iphone using Bluetooth LE.
 Start app screen looking like:
 
 <img src="https://github.com/Serzherio/HeartRateWithBluetooth/blob/main/Screenshotes/1.PNG" width="300" />
