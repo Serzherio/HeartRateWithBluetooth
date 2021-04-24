@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-HeartRateWithBluetooth/Pods-HeartRateWithBluetooth-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework
+${BUILT_PRODUCTS_DIR}/NeumorphismKit/NeumorphismKit.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework

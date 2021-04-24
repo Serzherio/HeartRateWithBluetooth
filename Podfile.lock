@@ -1,0 +1,36 @@
+PODS:
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - DZNEmptyDataSet (1.8.1)
+  - NeumorphismKit (0.2.0)
+  - Realm (5.2.0):
+    - Realm/Headers (= 5.2.0)
+  - Realm/Headers (5.2.0)
+  - RealmSwift (5.2.0):
+    - Realm (= 5.2.0)
+
+DEPENDENCIES:
+  - Charts
+  - DZNEmptyDataSet
+  - NeumorphismKit (~> 0.2)
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - DZNEmptyDataSet
+    - NeumorphismKit
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  NeumorphismKit: 98f2dae46ca40e05029620aa907c653150974430
+  Realm: f749c723e272f08fdf1939af5e61d2bd09b203e8
+  RealmSwift: bf0ab78b52c5bafba8b3ad73be8dfb4c1ea5cf01
+
+PODFILE CHECKSUM: a4598bbdbb7c09ee6b4c8ffdfe15ff348396fe00
+
+COCOAPODS: 1.10.1

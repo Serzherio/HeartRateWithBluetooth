@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C90F5EB522D94D6B1A00D6A6 /* Pods_HeartRateWithBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148645D0888691112D89C7F4 /* Pods_HeartRateWithBluetooth.framework */; };
+		D58392C926260E1C000015FF /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58392C826260E1C000015FF /* HistoryViewController.swift */; };
+		D58392CC26261455000015FF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58392CB26261455000015FF /* TableViewCell.swift */; };
+		D58392F0262ADB74000015FF /* TrainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58392EF262ADB74000015FF /* TrainModel.swift */; };
+		D58392F3262ADE52000015FF /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58392F2262ADE52000015FF /* StorageManager.swift */; };
+		D58392FC262C3864000015FF /* ShowTrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58392FB262C3864000015FF /* ShowTrainViewController.swift */; };
 		D5A4D5CD260B91EE00C7F847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A4D5CC260B91EE00C7F847 /* AppDelegate.swift */; };
 		D5A4D5CF260B91EE00C7F847 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A4D5CE260B91EE00C7F847 /* SceneDelegate.swift */; };
-		D5A4D5D1260B91EE00C7F847 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A4D5D0260B91EE00C7F847 /* ViewController.swift */; };
+		D5A4D5D1260B91EE00C7F847 /* TrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A4D5D0260B91EE00C7F847 /* TrainViewController.swift */; };
 		D5A4D5D4260B91EE00C7F847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A4D5D2260B91EE00C7F847 /* Main.storyboard */; };
 		D5A4D5D9260B91F100C7F847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A4D5D7260B91F100C7F847 /* LaunchScreen.storyboard */; };
 		D5A4D5E2260B947900C7F847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A4D5E1260B947900C7F847 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		148645D0888691112D89C7F4 /* Pods_HeartRateWithBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeartRateWithBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80149B8A759B5B9938C2A747 /* Pods-HeartRateWithBluetooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartRateWithBluetooth.release.xcconfig"; path = "Target Support Files/Pods-HeartRateWithBluetooth/Pods-HeartRateWithBluetooth.release.xcconfig"; sourceTree = "<group>"; };
+		D58392C826260E1C000015FF /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		D58392CB26261455000015FF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D58392EF262ADB74000015FF /* TrainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainModel.swift; sourceTree = "<group>"; };
+		D58392F2262ADE52000015FF /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		D58392FB262C3864000015FF /* ShowTrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTrainViewController.swift; sourceTree = "<group>"; };
 		D5A4D5C9260B91EE00C7F847 /* HeartRateWithBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateWithBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A4D5CC260B91EE00C7F847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5A4D5CE260B91EE00C7F847 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D5A4D5D0260B91EE00C7F847 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5A4D5D0260B91EE00C7F847 /* TrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainViewController.swift; sourceTree = "<group>"; };
 		D5A4D5D3260B91EE00C7F847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5A4D5D8260B91F100C7F847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5A4D5DA260B91F100C7F847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5A4D5E1260B947900C7F847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8A3902191C687AA15AB20CC /* Pods-HeartRateWithBluetooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartRateWithBluetooth.debug.xcconfig"; path = "Target Support Files/Pods-HeartRateWithBluetooth/Pods-HeartRateWithBluetooth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90F5EB522D94D6B1A00D6A6 /* Pods_HeartRateWithBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1323E0BB5AF851E6DE9ABA4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				148645D0888691112D89C7F4 /* Pods_HeartRateWithBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A1998D4936573DF8064C18A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8A3902191C687AA15AB20CC /* Pods-HeartRateWithBluetooth.debug.xcconfig */,
+				80149B8A759B5B9938C2A747 /* Pods-HeartRateWithBluetooth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D5A4D5C0260B91ED00C7F847 = {
 			isa = PBXGroup;
 			children = (
 				D5A4D5CB260B91EE00C7F847 /* HeartRateWithBluetooth */,
 				D5A4D5CA260B91EE00C7F847 /* Products */,
+				7A1998D4936573DF8064C18A /* Pods */,
+				1323E0BB5AF851E6DE9ABA4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +92,16 @@
 			children = (
 				D5A4D5CC260B91EE00C7F847 /* AppDelegate.swift */,
 				D5A4D5CE260B91EE00C7F847 /* SceneDelegate.swift */,
-				D5A4D5D0260B91EE00C7F847 /* ViewController.swift */,
+				D5A4D5D0260B91EE00C7F847 /* TrainViewController.swift */,
 				D5A4D5D2260B91EE00C7F847 /* Main.storyboard */,
+				D58392C826260E1C000015FF /* HistoryViewController.swift */,
 				D5A4D5D7260B91F100C7F847 /* LaunchScreen.storyboard */,
 				D5A4D5E1260B947900C7F847 /* Assets.xcassets */,
 				D5A4D5DA260B91F100C7F847 /* Info.plist */,
+				D58392CB26261455000015FF /* TableViewCell.swift */,
+				D58392FB262C3864000015FF /* ShowTrainViewController.swift */,
+				D58392EF262ADB74000015FF /* TrainModel.swift */,
+				D58392F2262ADE52000015FF /* StorageManager.swift */,
 			);
 			path = HeartRateWithBluetooth;
 			sourceTree = "<group>";
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5A4D5DD260B91F100C7F847 /* Build configuration list for PBXNativeTarget "HeartRateWithBluetooth" */;
 			buildPhases = (
+				E9587D41DB0E5B2FB6A8139A /* [CP] Check Pods Manifest.lock */,
 				D5A4D5C5260B91EE00C7F847 /* Sources */,
 				D5A4D5C6260B91EE00C7F847 /* Frameworks */,
 				D5A4D5C7260B91EE00C7F847 /* Resources */,
+				E05B68A25ED60E9A22A2FC69 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +173,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E05B68A25ED60E9A22A2FC69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeartRateWithBluetooth/Pods-HeartRateWithBluetooth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeartRateWithBluetooth/Pods-HeartRateWithBluetooth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeartRateWithBluetooth/Pods-HeartRateWithBluetooth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9587D41DB0E5B2FB6A8139A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeartRateWithBluetooth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D5A4D5C5260B91EE00C7F847 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A4D5D1260B91EE00C7F847 /* ViewController.swift in Sources */,
+				D58392CC26261455000015FF /* TableViewCell.swift in Sources */,
+				D5A4D5D1260B91EE00C7F847 /* TrainViewController.swift in Sources */,
+				D58392F0262ADB74000015FF /* TrainModel.swift in Sources */,
+				D58392F3262ADE52000015FF /* StorageManager.swift in Sources */,
 				D5A4D5CD260B91EE00C7F847 /* AppDelegate.swift in Sources */,
 				D5A4D5CF260B91EE00C7F847 /* SceneDelegate.swift in Sources */,
+				D58392FC262C3864000015FF /* ShowTrainViewController.swift in Sources */,
+				D58392C926260E1C000015FF /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +371,7 @@
 		};
 		D5A4D5DE260B91F100C7F847 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A3902191C687AA15AB20CC /* Pods-HeartRateWithBluetooth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -303,6 +392,7 @@
 		};
 		D5A4D5DF260B91F100C7F847 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80149B8A759B5B9938C2A747 /* Pods-HeartRateWithBluetooth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
